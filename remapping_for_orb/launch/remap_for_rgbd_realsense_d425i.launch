@@ -1,0 +1,8 @@
+<launch>
+
+    <node pkg='remapping_for_orb'
+          name = 'remap_rgbd_realsense_d435i_node'
+          type = 'remap_for_realsense_rgbd.py'
+          output = 'screen'/>
+
+</launch>
